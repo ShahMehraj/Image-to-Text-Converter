@@ -1,4 +1,4 @@
-```markdown
+
 # Image Text Extraction with Google Generative AI
 
 This Streamlit application enables users to extract text from uploaded images using **Google Generative AI**. Users can upload images in various formats, and the app processes the image to extract its textual content.
@@ -99,6 +99,5 @@ Feel free to submit issues or pull requests to improve this project. Contributio
 
 ## Author
 
-- **Your Name**
+- **Mehraj Ud Din Shah Peerzada**
 - GitHub: [your-github-handle](https://github.com/ShahMehraj)
-```
