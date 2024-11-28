@@ -4,7 +4,7 @@ import google.generativeai as genai
 import mimetypes
 
 # Configure the Google Generative AI API
-api = "AIzaSyCheCSgZiZfqU-Rv6KZFGUaEp2lrGkyfRI"
+api = os.getenv('GOOGLE_API_KEY')
 genai.configure(api_key=api)
 
 # Function to upload a file to Gemini
