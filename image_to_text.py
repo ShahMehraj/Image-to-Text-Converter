@@ -2,6 +2,8 @@ import streamlit as st
 import os
 import google.generativeai as genai
 import mimetypes
+from dotenv import load_dotenv
+_ = load_dotenv()
 
 # Configure the Google Generative AI API
 api = os.getenv('GOOGLE_API_KEY')
@@ -59,7 +61,7 @@ if uploaded_file:
             response = model.generate_content([
                 gemini_file,
                 "extract the text from the image, don't write any additional detail",
-                "Image: extract the text from the image",
+                "Image: just extract the text from the image",
             ])
             
             # Display the extracted text
