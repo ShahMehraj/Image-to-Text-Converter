@@ -100,4 +100,3 @@ Feel free to submit issues or pull requests to improve this project. Contributio
 ## Author
 
 - **Mehraj Ud Din Shah Peerzada**
-- GitHub: [your-github-handle](https://github.com/ShahMehraj)
